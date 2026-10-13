@@ -1,0 +1,16 @@
+{
+  "certificates": [
+    {
+      "hostname": "portal.example",
+      "not_before": "2026-01-01T00:00:00Z",
+      "not_after": "2026-10-10T00:00:00Z",
+      "dns_sans": [
+        "other.example"
+      ],
+      "ip_sans": [],
+      "protocol": "TLSv1.1",
+      "cipher_bits": 128,
+      "verified_chain": false
+    }
+  ]
+}
